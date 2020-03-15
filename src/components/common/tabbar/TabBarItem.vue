@@ -27,7 +27,7 @@
          this.$router.replace(this.path)
        },
        activeStyle(){
-         return this.isAction ? {color: this.activeolor} : {}
+         return this.isAction ? {color: this.activeColor} : {}
        }
      },
      computed:{
@@ -37,7 +37,7 @@
      }
    }
  </script>
- <style>
+ <style scoped>
    .tab-bar-item {
      flex: 1px;
      text-align: center;

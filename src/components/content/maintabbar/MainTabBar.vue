@@ -18,7 +18,7 @@
       </tab-bar-item>
       <tab-bar-item path="/profile" activeColor="blue">
         <img slot="item-icon" src="~assets/img/tabbar/profile.svg" alt="">
-        <img slot="item-icon-active" src="~assets/img/tabbar/profile_avtive.svg" alt="">
+        <img slot="item-icon-active" src="~assets/img/tabbar/profile_active.svg" alt="">
         <div slot="item-text">我的</div>
       </tab-bar-item>
     </tab-bar>
@@ -27,8 +27,8 @@
 </template>
 
 <script>
-    import TabBar from 'component/common/tabbar/TabBar.vue'
-    import TabBarItem from 'component/common/tabbar/TabBarItem.vue'
+    import TabBar from 'components/common/tabbar/TabBar.vue'
+    import TabBarItem from 'components/common/tabbar/TabBarItem.vue'
   export default {
     name:"MainTabBar",
     components:{
